@@ -134,14 +134,7 @@ header .hero-text p {
   padding: 10px;
   font-size: 14px;
 }
-/*
-header .btn-outline-light {
-  text-transform: uppercase;
-}
 
-header .fa-chevron-down {
-  display: none;
-}*/
 
 
 .btn {
@@ -232,32 +225,6 @@ header .fa-chevron-down {
 }
 
 
-/*
-#achievements .achievement-list {
-  padding: 20px 0;
-}
-
-#achievements .achievement {
-  text-align: center;
-}
-
-#achievements i {
-  padding: 10px;
-  font-size: 48px;
-  color: #fff;
-  text-shadow: 0 0 5px black;
-}
-
-#achievements .achievement-number {
-  font-size: 22px;
-}
-
-#achievements .achievement-text {
-  font-size: 13px;
-  text-transform: capitalize;
-  font-style: italic;
-  
-}*/
 
 #testimonials .jumbotron {
   position: relative;
