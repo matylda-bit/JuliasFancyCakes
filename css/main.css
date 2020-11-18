@@ -1,4 +1,4 @@
-*, *::after, *::before {
+    *, *::after, *::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin: 0;
@@ -23,7 +23,9 @@ h2 {
 .blue-text {
   color: #039dff;
 }
-
+.pink-text {
+  color: crimson;
+}
 .wrapper {
   max-width: 2560px;
   width: 85%;
@@ -134,7 +136,14 @@ header .hero-text p {
   padding: 10px;
   font-size: 14px;
 }
+/*
+header .btn-outline-light {
+  text-transform: uppercase;
+}
 
+header .fa-chevron-down {
+  display: none;
+}*/
 
 
 .btn {
@@ -186,7 +195,7 @@ header .hero-text p {
 }
 
 #team .card img {
-  height: 500px;
+  height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -206,7 +215,7 @@ header .hero-text p {
 }
 
 #team .card-body {
-  height: 150px;
+  height: 250px;
 }
 
 #team .card-title {
@@ -220,11 +229,35 @@ header .hero-text p {
   font-size: 14px;
   text-align: center;
 }
-#team .card-footer{
-  margin-bottom: 10px;
+
+
+
+/*
+#achievements .achievement-list {
+  padding: 20px 0;
 }
 
+#achievements .achievement {
+  text-align: center;
+}
 
+#achievements i {
+  padding: 10px;
+  font-size: 48px;
+  color: #fff;
+  text-shadow: 0 0 5px black;
+}
+
+#achievements .achievement-number {
+  font-size: 22px;
+}
+
+#achievements .achievement-text {
+  font-size: 13px;
+  text-transform: capitalize;
+  font-style: italic;
+  
+}*/
 
 #testimonials .jumbotron {
   position: relative;
@@ -386,4 +419,6 @@ footer p {
     height: 120px;
   }
 }
+
+
 /*# sourceMappingURL=main.css.map */
